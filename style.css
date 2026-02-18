@@ -1,0 +1,113 @@
+html{
+	color: #ffcee3;
+	background-image: url(./bg.png);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+  	font-family: "Quicksand", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 16px;
+  	cursor: url(./cursor-flowers.png) 18 16,pointer;
+}
+body{
+	text-align: center;
+}
+.photoprofil{
+	height: 150px;
+	width:150px;
+	border-radius: 50%;
+	border: 2px solid #ffb6d9;
+	box-shadow: 0 0 25px #ff79a8;
+	margin-top: 30px;
+}
+h1{
+  	font-family: "Princess Sofia", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 35px
+}
+.button-link{
+	width: 80%;
+	max-width: 500px;
+	height: 70px;
+	border-radius: 30px;
+	background-color: #ffcee3;
+	cursor: url(./cursor-flowers.png) 18 16,pointer;
+	display: flex;
+	align-items: center;
+
+	margin: 15px auto 0;
+	text-decoration: none;
+}
+.button-link:hover{
+  	 background-image: linear-gradient(90deg, #ffcee3 49%,  #fea1c3 80%, #ff79a8  100%);
+  	 transform: translateY(-2px);
+	transition: 0.3s ease;
+}
+.link-text{	
+	font-family: "Quicksand", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 16px;
+  	color: #ff79a8; 
+  	margin-left: 10px;
+}
+.logoInsta{
+	width: 45px;
+	height: 45px;
+	margin: auto 5px auto 15px;
+}
+.logoMail{
+	width: 45px;
+	height: 45px;
+	margin: auto 5px auto 15px;
+}
+.logoLinkedin{
+	width: 45px;
+	height: 45px;
+	margin: auto 5px auto 15px;
+}
+.footer{
+	font-family: "Princess Sofia", cursive;
+  	font-weight: 300;
+  	font-style: normal;
+}
+footer{
+	margin-top: 100px; 
+}
+@media screen and (max-width: 600px){
+
+	.photoprofil{
+		width: 120px;
+		height: 120px;
+		margin-top: 70px;
+	}
+
+	h1{
+		font-size: 28px;
+	}
+
+	p{
+		font-size: 14px;
+		padding: 0 20px;
+	}
+
+	.button-link{
+		height: 60px;
+		justify-content: flex-start;
+		padding-left: 15px;
+
+	}
+	.logoMail,
+	.logoInsta,
+	.logoLinkedin{
+		width: 35px;
+		height: 35px;
+	}
+
+	.link-text{
+		font-size: 14px;
+	}
+}
