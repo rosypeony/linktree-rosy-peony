@@ -9,7 +9,7 @@ html{
   	font-weight: 500;
   	font-style: normal;
   	font-size: 16px;
-  	cursor: url("./cursor-flowers.png") 18 16;
+  	cursor: url(./cursor-flowers.png) 18 16,pointer;
 }
 body{
 	text-align: center;
@@ -34,7 +34,7 @@ h1{
 	height: 70px;
 	border-radius: 30px;
 	background-color: #ffcee3;
-	cursor: url("./cursor-flowers.png") 18 16,pointer;
+	cursor: url(./cursor-flowers.png) 18 16,pointer;
 	display: flex;
 	align-items: center;
 
@@ -111,5 +111,6 @@ footer{
 		font-size: 14px;
 	}
 }
+
 
 
